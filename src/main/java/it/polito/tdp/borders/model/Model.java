@@ -18,6 +18,15 @@ public class Model {
 
 	private Graph<Country, DefaultEdge> graph;
 	private Map<Integer, Country> countriesMap;
+	private int nPassiSim;
+	
+	public int getnPassiSim() {
+		return nPassiSim;
+	}
+
+	public void setnPassiSim(int nPassiSim) {
+		this.nPassiSim = nPassiSim;
+	}
 
 	public Model() {
 		this.countriesMap = new HashMap<>();
